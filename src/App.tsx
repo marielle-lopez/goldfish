@@ -3,6 +3,7 @@ import './App.css'
 import { useState, useEffect } from 'react'
 import CardModel from './models/card'
 import CardComponent from './components/CardComponent/CardComponent';
+import shuffle from './helpers/shuffle';
 
 
 function App() {
@@ -32,7 +33,9 @@ function App() {
       })
     })
 
-    setCards(allCards);
+    const randomisedCards = shuffle(allCards);
+
+    setCards(randomisedCards);
   }, [])
 
   return (
