@@ -1,0 +1,243 @@
+[
+    {
+        "suit": "❤️",
+        "values": [
+            {
+                "value": "2",
+                "points": 2
+            },
+            {
+                "value": "3",
+                "points": 3
+            },
+            {
+                "value": "4",
+                "points": 4
+            },
+            {
+                "value": "5",
+                "points": 5
+            },
+            {
+                "value": "6",
+                "points": 6
+            },
+            {
+                "value": "7",
+                "points": 7
+            },
+            {
+                "value": "8",
+                "points": 8
+            },
+            {
+                "value": "9",
+                "points": 9
+            },
+            {
+                "value": "10",
+                "points": 10
+            },
+            {
+                "value": "J",
+                "points": 11
+            },
+            {
+                "value": "Q",
+                "points": 12
+            },
+            {
+                "value": "K",
+                "points": 13
+            },
+            {
+                "value": "A",
+                "points": 14
+            }
+        ]
+    },
+    {
+        "suit": "♦️",
+        "values": [
+            {
+                "value": "2",
+                "points": 2
+            },
+            {
+                "value": "3",
+                "points": 3
+            },
+            {
+                "value": "4",
+                "points": 4
+            },
+            {
+                "value": "5",
+                "points": 5
+            },
+            {
+                "value": "6",
+                "points": 6
+            },
+            {
+                "value": "7",
+                "points": 7
+            },
+            {
+                "value": "8",
+                "points": 8
+            },
+            {
+                "value": "9",
+                "points": 9
+            },
+            {
+                "value": "10",
+                "points": 10
+            },
+            {
+                "value": "J",
+                "points": 11
+            },
+            {
+                "value": "Q",
+                "points": 12
+            },
+            {
+                "value": "K",
+                "points": 13
+            },
+            {
+                "value": "A",
+                "points": 14
+            }
+        ]
+    },
+    {
+        "suit": "♣️",
+        "values": [
+            {
+                "value": "2",
+                "points": 2
+            },
+            {
+                "value": "3",
+                "points": 3
+            },
+            {
+                "value": "4",
+                "points": 4
+            },
+            {
+                "value": "5",
+                "points": 5
+            },
+            {
+                "value": "6",
+                "points": 6
+            },
+            {
+                "value": "7",
+                "points": 7
+            },
+            {
+                "value": "8",
+                "points": 8
+            },
+            {
+                "value": "9",
+                "points": 9
+            },
+            {
+                "value": "10",
+                "points": 10
+            },
+            {
+                "value": "J",
+                "points": 11
+            },
+            {
+                "value": "Q",
+                "points": 12
+            },
+            {
+                "value": "K",
+                "points": 13
+            },
+            {
+                "value": "A",
+                "points": 14
+            }
+        ]
+    },
+    {
+        "suit": "♠️",
+        "values": [
+            {
+                "value": "2",
+                "points": 2
+            },
+            {
+                "value": "3",
+                "points": 3
+            },
+            {
+                "value": "4",
+                "points": 4
+            },
+            {
+                "value": "5",
+                "points": 5
+            },
+            {
+                "value": "6",
+                "points": 6
+            },
+            {
+                "value": "7",
+                "points": 7
+            },
+            {
+                "value": "8",
+                "points": 8
+            },
+            {
+                "value": "9",
+                "points": 9
+            },
+            {
+                "value": "10",
+                "points": 10
+            },
+            {
+                "value": "J",
+                "points": 11
+            },
+            {
+                "value": "Q",
+                "points": 12
+            },
+            {
+                "value": "K",
+                "points": 13
+            },
+            {
+                "value": "A",
+                "points": 14
+            }
+        ]
+    },
+    {
+        "suit": "🃏",
+        "values": [
+            {
+                "value": "JOKER RED",
+                "points": 0
+            },
+            {
+                "value": "JOKER BLACK",
+                "points": 0
+            }
+        ]
+    }
+]
