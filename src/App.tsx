@@ -1,18 +1,24 @@
 import deck from './data/cards.json'
 import './App.css'
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
+import CardModel from './models/card'
+import CardComponent from './components/CardComponent/CardComponent';
 
-interface Card {
-  suit: string;
-  value: string;
-  points: number;
-}
 
 function App() {
-  const [cards, setCards] = useState<Card[]>([]);
+  const [cards, setCards] = useState<CardModel[]>([]);
+
+  const styling: string[] = [
+    "grid",
+    "grid-cols-9",
+    "grid-rows-6",
+    "gap-4",
+    "justify-center",
+    "p-4",
+  ]
 
   useEffect(() => {
-    const allCards: Card[] = [];
+    const allCards: CardModel[] = [];
 
     deck.forEach((suit) => {
       suit.values.forEach((card) => {
@@ -32,9 +38,11 @@ function App() {
   return (
     <>
       <h1>Goldfish</h1>
-      {
-        cards && cards.map((card) => <p>{card.suit}{card.value}</p>)
-      }
+      <div className={styling.join(" ")}>
+        {
+          cards && cards.map((card) => <CardComponent key={card.suit + card.value} card={card} />)
+        }
+      </div>
     </>
   )
 }
